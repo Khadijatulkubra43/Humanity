@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Humanity - Insights from Below the Surface</title>
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-water" style="color: #0A0F14; font-size: 24px;"></i>
+                </div>
+                <div class="logo-text">HUMAN<span>ITY</span></div>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="service.html" class="nav-link">Service</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="product.html" class="nav-link">Product</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="#newsletter" class="nav-cta">
+                    <i class="fas fa-paper-plane"></i> Join Circle
+                </a></li>
+            </ul>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- BLOG HERO -->
+    <section class="blog-hero">
+        <div class="container">
+            <div class="blog-hero-content">
+                <h1>Insights from <span>Below the Surface</span></h1>
+                <p class="blog-hero-subtitle">Expert perspectives on scuba stadium design, underwater engineering, safety innovation, and the future of professional diving environments.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED ARTICLE -->
+    <section class="section-padding featured-article">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Insight</h2>
+                <p>Deep dives into the engineering and innovation shaping professional diving.</p>
+            </div>
+            
+            <div class="featured-card">
+                <div class="featured-image">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Engineering Depth">
+                    <div class="featured-badge">FEATURED</div>
+                </div>
+                <div class="featured-content">
+                    <div class="featured-category">Stadium Design</div>
+                    <h3>Engineering Depth: How Stadium Design Shapes Diver Performance</h3>
+                    <p class="featured-excerpt">A deep dive into how structure, pressure control, and visibility directly impact elite-level performance, featuring insights from Olympic coaches and naval architects.</p>
+                    
+                    <div class="featured-meta">
+                        <div class="meta-item">
+                            <i class="far fa-calendar"></i>
+                            <span>March 15, 2023</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="far fa-clock"></i>
+                            <span>7 min read</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-user-edit"></i>
+                            <span>Alex Morgan, Lead Engineer</span>
+                        </div>
+                    </div>
+                    
+                    <a href="article-engineering-depth.html" class="article-link">
+                        Read Full Article <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="section-padding categories-section">
+        <div class="container">
+            <div class="categories-container">
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search insights, articles, and research...">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                
+                <div class="categories-grid">
+                    <button class="category-btn active" data-category="all">
+                        <i class="fas fa-th-large"></i> All Articles
+                    </button>
+                    <button class="category-btn" data-category="innovation">
+                        <i class="fas fa-atom"></i> Innovation & Technology
+                    </button>
+                    <button class="category-btn" data-category="design">
+                        <i class="fas fa-drafting-compass"></i> Stadium Design
+                    </button>
+                    <button class="category-btn" data-category="safety">
+                        <i class="fas fa-shield-alt"></i> Safety & Standards
+                    </button>
+                    <button class="category-btn" data-category="insights">
+                        <i class="fas fa-chart-line"></i> Industry Insights
+                    </button>
+                    <button class="category-btn" data-category="sustainability">
+                        <i class="fas fa-leaf"></i> Sustainability
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG GRID -->
+    <section class="section-padding blog-grid-section">
+        <div class="container">
+            <div class="blog-grid" id="articlesGrid">
+                <!-- Article 1 -->
+                <article class="article-card" data-category="innovation">
+                    <div class="article-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIWW98xsHAaQLh0lkTBoSrpWKTqfLJ5xqZ5A&s" alt="Smart Systems">
+                        <div class="article-category">Innovation</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <div class="article-date">
+                                <i class="far fa-calendar"></i>
+                                <span>April 2, 2023</span>
+                            </div>
+                            <div class="article-read-time">
+                                <i class="far fa-clock"></i>
+                                <span>5 min read</span>
+                            </div>
+                        </div>
+                        <h3>Smart Systems That Redefine Underwater Safety</h3>
+                        <p class="article-excerpt">How AI-powered monitoring and automated emergency protocols are creating the next generation of fail-safe diving environments.</p>
+                        <a href="article-smart-systems.html" class="article-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Article 2 -->
+                <article class="article-card" data-category="design">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Future Stadiums">
+                        <div class="article-category">Stadium Design</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <div class="article-date">
+                                <i class="far fa-calendar"></i>
+                                <span>March 28, 2023</span>
+                            </div>
+                            <div class="article-read-time">
+                                <i class="far fa-clock"></i>
+                                <span>6 min read</span>
+                            </div>
+                        </div>
+                        <h3>The Future of Competitive Scuba Stadiums</h3>
+                        <p class="article-excerpt">Exploring how modular design and adaptive environments are revolutionizing competitive diving at the professional level.</p>
+                        <a href="article-future-stadiums.html" class="article-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Article 3 -->
+                <article class="article-card" data-category="safety">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Safety Standards">
+                        <div class="article-category">Safety & Standards</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <div class="article-date">
+                                <i class="far fa-calendar"></i>
+                                <span>March 20, 2023</span>
+                            </div>
+                            <div class="article-read-time">
+                                <i class="far fa-clock"></i>
+                                <span>8 min read</span>
+                            </div>
+                        </div>
+                        <h3>Beyond Compliance: Next-Gen Safety Protocols</h3>
+                        <p class="article-excerpt">How proactive safety systems are replacing reactive protocols in modern diving facilities, with insights from global standards organizations.</p>
+                        <a href="article-safety-protocols.html" class="article-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Article 4 -->
+                <article class="article-card" data-category="sustainability">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1530549387789-4c1017266635?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Materials">
+                        <div class="article-category">Sustainability</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <div class="article-date">
+                                <i class="far fa-calendar"></i>
+                                <span>March 12, 2023</span>
+                            </div>
+                            <div class="article-read-time">
+                                <i class="far fa-clock"></i>
+                                <span>4 min read</span>
+                            </div>
+                        </div>
+                        <h3>Materials That Withstand Extreme Depths</h3>
+                        <p class="article-excerpt">A technical review of advanced polymers, composites, and marine-grade metals engineered for decades of reliable underwater performance.</p>
+                        <a href="article-materials.html" class="article-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Article 5 -->
+                <article class="article-card" data-category="insights">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Industry Trends">
+                        <div class="article-category">Industry Insights</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <div class="article-date">
+                                <i class="far fa-calendar"></i>
+                                <span>March 5, 2023</span>
+                            </div>
+                            <div class="article-read-time">
+                                <i class="far fa-clock"></i>
+                                <span>7 min read</span>
+                            </div>
+                        </div>
+                        <h3>The Business of Professional Diving Facilities</h3>
+                        <p class="article-excerpt">Market analysis and trends in commercial diving infrastructure, from ROI calculations to operational efficiency metrics.</p>
+                        <a href="article-business-diving.html" class="article-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Article 6 -->
+                <article class="article-card" data-category="innovation">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Hydrodynamics">
+                        <div class="article-category">Innovation</div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <div class="article-date">
+                                <i class="far fa-calendar"></i>
+                                <span>February 28, 2023</span>
+                            </div>
+                            <div class="article-read-time">
+                                <i class="far fa-clock"></i>
+                                <span>6 min read</span>
+                            </div>
+                        </div>
+                        <h3>Hydrodynamics: The Science of Water Flow in Diving Arenas</h3>
+                        <p class="article-excerpt">How computational fluid dynamics is optimizing water movement to reduce turbulence and enhance diver performance.</p>
+                        <a href="article-hydrodynamics.html" class="article-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            
+            <!-- Pagination -->
+            <div class="pagination">
+                <a href="#" class="page-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </a>
+                <div class="page-numbers">
+                    <a href="#" class="page-btn active">1</a>
+                    <a href="#" class="page-btn">2</a>
+                    <a href="#" class="page-btn">3</a>
+                    <a href="#" class="page-btn">4</a>
+                </div>
+                <a href="#" class="page-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERT VOICE -->
+    <section class="section-padding expert-section">
+        <div class="container">
+            <div class="expert-content">
+                <div class="expert-icon">
+                    <i class="fas fa-user-check"></i>
+                </div>
+                <h2>Expert Voice, Real-World Relevance</h2>
+                <p>All Humanity articles are written or reviewed by engineers, professional divers, and industry specialists—ensuring accuracy, clarity, and real-world relevance in every insight we share.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="section-padding newsletter-section">
+        <div class="container">
+            <div class="newsletter-container">
+                <h2>Stay Informed. Stay Ahead.</h2>
+                <p>Get expert insights, new stadium launches, and innovation updates delivered directly to your inbox.</p>
+                
+                <form class="newsletter-form" id="blogSubscribeForm">
+                    <input type="email" class="newsletter-input" placeholder="Enter your email address" required>
+                    <button type="submit" class="newsletter-btn">
+                        Subscribe <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+                
+                <p style="margin-top: 30px; font-size: 0.9rem; opacity: 0.7;">Join 25,000+ professionals receiving our insights. Unsubscribe anytime.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Turn Knowledge into Performance</h2>
+            <p>Ready to transform insights into action? Explore how our engineering expertise can elevate your diving environment.</p>
+            
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <a href="stadiums.html" class="btn-primary">
+                    <i class="fas fa-water"></i> Explore Our Stadiums
+                </a>
+                <a href="contact.html" class="btn-secondary">
+                    <i class="fas fa-user-tie"></i> Contact Our Experts
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Humanity</h3>
+                    <p style="color: rgba(255, 255, 255, 0.7); margin-bottom: 25px; line-height: 1.6;">
+                        Expert insights on scuba stadium engineering, underwater innovation, and professional diving environments.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Blog Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" data-category="innovation">Innovation & Technology</a></li>
+                        <li><a href="#" data-category="design">Stadium Design</a></li>
+                        <li><a href="#" data-category="safety">Safety & Standards</a></li>
+                        <li><a href="#" data-category="insights">Industry Insights</a></li>
+                        <li><a href="#" data-category="sustainability">Sustainability</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html#insights">Featured Articles</a></li>
+                        <li><a href="#">Research Papers</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">White Papers</a></li>
+                        <li><a href="#">Industry Reports</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Editorial Inquiries</h3>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>editorial@humanity.tech</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>Editorial Desk: +1 (555) WRITE-NOW</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-user-edit"></i>
+                            <span>Contributor Guidelines</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Monthly Editorial Calendar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Humanity. All rights reserved. Expert insights since 2018.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Editorial Policy</a>
+                    <a href="#">Contribution Terms</a>
+                    <a href="#">Citation Guidelines</a>
+                    <a href="#">Research Ethics</a>
+                    <a href="#">Media Kit</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   <script src="blog.js"></script>
+</body>
+</html>
